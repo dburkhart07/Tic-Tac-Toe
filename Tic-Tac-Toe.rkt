@@ -1,14 +1,7 @@
-;; The first three lines of this file were inserted by DrRacket. They record metadata
-;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-intermediate-lambda-reader.ss" "lang")((modname Assignment4) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
-;;Dalton Burkhart ddburkhart1 Keagan Hitt kjhitt
 (require 2htdp/image)
 (require 2htdp/universe)
 (require racket/list) ; you might want this
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; the SA will mess with the SIZE constant, be sure it is used
-;; throughout your program where needed
 (define SIZE 679) ;; can range from [300,900]
 (define MTS (empty-scene SIZE SIZE))
 (define WIDTH (/ SIZE 60))
@@ -39,7 +32,9 @@
 
 ;(define UNITS (append ROWS COLS))
   
-;; =================
+
+
+
 ;; Constants:
 
 (define ALL-VALS (list "X" "O"))
@@ -113,7 +108,9 @@
      SIZE3 board-boarders-end SIZE3 box-width PEN)
     box-width SIZE3 board-boarders-end SIZE3 PEN)
    box-width SIZE2 board-boarders-end SIZE2 PEN))
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
 
 ;;Data Definitions:
 
